@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+body{
+    color: #142b6f;
+    font-family: LL Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+#frst{
+    background-color: #142b6f;
+    min-width: 100%;
+    height: 4px;
+}
+
+#nav{
+    height: 8.5vh;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.navinner1{
+    width: 10vw;
+    text-align: center;
+    margin-right: 28vw;
+}
+.navinner2{
+    width: 10vw;
+    text-align: center;
+    font-size: 2rem;
+}
+.navinner3{
+    width: 10vw;
+    text-align: center;
+    margin-left: 28vw;
+}
+.navhover:hover{
+    border-bottom: 5px solid yellow;
+}
+
+.mainimage{
+    position: relative;  display: flex; justify-content: center; align-items: center;
+}
+
+.mainimagemobile{
+    position: relative;  display: flex; justify-content: center; align-items: center; display: none;
+}
+.mainimagemobile img{
+    width: 98vw; height: 90vh;
+}
+
+
+
+.shop{
+    margin-top: 4vh;
+    height: 35vh;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+}
+
+.shop1{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop1 .imgdiv{
+    margin-top: 10%;
+    width: 90%;
+    height: 70%;
+    overflow: hidden;
+}
+.shop1 .imgdiv img{
+    width: 100%;
+    height: 100%;
+}
+.shop1 .imgdiv img:hover{
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+.shop1 p{
+    height: 20%; font-size: 1rem; font-weight: bolder; background-color: #F8F7F9; width: 90%; text-align: center; padding: 5% 5px 0 5px;
+}
+
+#dailyintention h1{
+    margin: 9vh 3vw 0 3vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.daily{
+    margin-top: 5vh;
+    height: 25vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* background-color: lightpink; */
+}
+
+.daily .inner{
+    height: 90%;
+    width: 10%;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.daily .inner p{
+    text-align: center;
+    width: 90%;
+    margin-top: 3vh;
+}
+
+
+
+/* pseudoscience */
+.pseudoscience{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: royalblue; */
+}
+
+.pseudo{
+    /* background-color: lightgrey; */
+    height: 100vh;
+    width: 50%;
+}
+.yellow{
+    background-color: #FFD600;
+    margin-left: -30%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 50% 50% ;
+}
+
+.pseudoscience .imgdiv{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.pseudoscience .imgdiv img{
+    width: 100%;
+    height: 100%;
+}
+.pseudoscience .halftruths{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.pseudoscience .halftruths h1{
+    width: 65%;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.pseudoscience .halftruths p{
+    margin-top: 2.5rem;
+    width: 65%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.pseudoscience .halftruths a{
+    margin-top: 2.5rem;
+    margin-right: 50%;
+    font-weight: bold;
+    line-height: 2rem;
+    border-bottom: 2px solid #142b6f;
+}
+
+/* traceability */
+.traceability{
+    height: 75vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+}
+.traceability .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.traceability .left h1{
+    width: 65%;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.traceability .left p{
+    margin-top: 2.5rem;
+    width: 65%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.traceability .left a{
+    margin-top: 2.5rem;
+    margin-right: 46%;
+    font-weight: bold;
+    line-height: 2rem;
+    border-bottom: 2px solid #142b6f;
+}
+
+
+.traceability .imgdiv{
+    width: 50%;
+    height: 100%;
+}
+.traceability .imgdiv img{
+    margin-top: -10%;
+    width: 75%;
+    height: 100%;
+}
+
+#featured{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#featured #products{
+    font-size: 2em;
+    font-weight: bold;
+}
+#featured #shopall{
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 2px solid #142b6f;
+}
+
+#featuredpro{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#featuredpro .essentials{
+    width: 20.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+        #featuredpro .essentials .oneimg{
+            width: 85%;
+            height: 60%;
+            border-radius: 10%;
+            background: url('./img/PDP_EFW_Bottle.jpg');
+            background-size: 100% 100%;
+        }
+            #featuredpro .essentials .oneimg:hover{
+                background: url("img/PDP-EFW18-Hand.jpg") no-repeat; 
+            }
+ 
+        #featuredpro .essentials .twoimg{
+            width: 85%;
+            height: 60%;
+            border-radius: 10%;
+            background: url("img/PDP_EPRE_Bottle__1_.jpg") no-repeat;
+            background-size: 100% 100%;
+        }
+            #featuredpro .essentials .twoimg:hover{
+                background: url("img/PDP_EPRE_Hand.jpg") no-repeat; 
+            }
+
+        #featuredpro .essentials .threeimg{
+            width: 85%;
+            height: 60%;
+            border-radius: 10%;
+            background: url("img/PDP-EP18-Bag.jpg") no-repeat;
+            background-size: 100% 100%;
+        }
+            #featuredpro .essentials .threeimg:hover{
+                background: url("img/PDP-EP18-Model-2.jpg") no-repeat; 
+            }
+            
+        #featuredpro .essentials .fourimg{
+            width: 85%;
+            height: 60%;
+            border-radius: 10%;
+            background: url("img/PDP_EFM_Bottle.jpg") no-repeat;
+            background-size: 100% 100%;
+        }
+        #featuredpro .essentials .fourimg:hover{
+            background: url("img/PDP-EFM18-Hand.jpg") no-repeat; 
+        }
+        
+
+#featuredpro .essentials span{
+    height: 10%;
+    width: 100%;
+    padding-left: 7.5%;
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+#featuredpro .essentials h1{
+    height: 10%;
+    width: 100%;
+    padding-left: 7.5%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#featuredpro .essentials p{
+    height: 20%;
+    width: 100%;
+    padding-left: 7.5%;
+    margin-top: 3%;
+    font-size: 1em;
+    color: #99A3C0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media only screen and (max-width: 875px) {
+    .pseudoscience .halftruths h1{
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .pseudoscience .halftruths p{
+        margin-top: 1.5rem;
+        width: 80%;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .pseudoscience .halftruths a{
+        margin-top: 2rem;
+        margin-right: 45%;
+        font-weight: bold;
+        line-height: 1rem;
+        border-bottom: 2px solid #142b6f;
+    }       
+}
+
+
+@media only screen and (max-width: 850px){
+    .pseudoscience .imgdiv{
+        width: 50%;
+        left: 0%;
+    }
+    .pseudoscience .halftruths{
+        left: 50%;
+        width: 50%;
+    }
+    .daily .inner{
+        width: 25%;
+    } 
+    .daily .inner p{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    
+    .mainimage{
+      display: none;
+    }
+    .mainimagemobile{
+        display: block;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .shop1{
+        width: 25vw;
+        height: 70%;
+    }
+    #dailyintention h1{
+        margin-top: 0vh;
+    }
+    #featured{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #featuredpro .essentials{
+        width: 25%;
+    }
+    #featuredpro .essentials span{
+        font-size: .8rem;
+    }
+    #featuredpro .essentials h1{
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 568px){
+    .yellow{
+        height: 50%;
+    }
+    .traceability{
+        height: 100vh;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .traceability .left{
+        width: 90%;
+        height: 50%; 
+        margin-left: 5%;
+        align-items: flex-start;
+    }
+    .traceability .left h1{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .traceability .left p{
+        margin-top: 0.5rem;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .traceability .left a{
+        margin-top: 1.5rem;
+        margin-right: 0;
+        text-align: left;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .traceability .imgdiv{
+        width: 90%;
+        height: 50%;
+        margin-left: 5%;
+    }
+    .traceability .imgdiv img{
+        margin-top: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+    #featured #products{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #featured #shopall{
+        font-size: 1em;
+        font-weight: bold;
+        border-bottom: 2px solid #142b6f;
+    }
+}
+@media only screen and (max-width: 500px){
+    .pseudo{
+        height: 500px;
+    }
+    .yellow{
+        margin-right: 50%;
+    }
+    .pseudoscience .imgdiv{
+        top: 2%;
+        width: 90%;
+        height: 40%;
+        left: 5%; 
+    }
+    .pseudoscience .halftruths{
+        height: 50%;
+        left: 5%;
+        width: 90%;
+        top: 48%; 
+        align-items: flex-start;
+    }
+    .pseudoscience .halftruths h1{
+        width: 100%;
+        text-align: justify;
+    }
+    .pseudoscience .halftruths p{
+        width: 100%;
+        text-align: justify;
+    }
+    .pseudoscience .halftruths a{
+        margin-top: 2rem;
+        margin-right: 0%;
+        text-align: left;
+    }    
+}
+
+
+@media only screen and (max-width: 370px){
+    .daily{
+        height: 30vh;
+    }
+
+}
